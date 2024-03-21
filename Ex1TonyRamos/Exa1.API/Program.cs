@@ -10,6 +10,8 @@ var host = new HostBuilder()
     {
         services.AddApplicationInsightsTelemetryWorkerService();
         services.ConfigureFunctionsApplicationInsights();
+
+
         services.AddTransient<IProveedorRepositorio, ProveedorRepositorio>();
         services.AddTransient<IProductoRepositorio, ProductoRepositorio>();
     })
