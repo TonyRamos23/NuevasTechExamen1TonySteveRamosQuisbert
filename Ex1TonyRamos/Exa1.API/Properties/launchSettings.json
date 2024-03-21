@@ -3,7 +3,9 @@
     "Exa1.API": {
       "commandName": "Project",
       "commandLineArgs": "--port 7060",
-      "launchBrowser": false
+      "environmentVariables": {
+        "cadenaconexion": "DefaultEndpointsProtocol=https;AccountName=examentonyramos;AccountKey=P/CPPKgHOnkxWVHBDED5p5EgqU4DTFd4jYx15dlOItY4cYmmzZTDm/Af9w7YoBVEB2jLkWeHt8o3+AStoo9KaA==;EndpointSuffix=core.windows.net"
+      }
     }
   }
 }

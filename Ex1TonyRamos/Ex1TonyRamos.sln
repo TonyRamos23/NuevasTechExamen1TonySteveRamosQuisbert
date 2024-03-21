@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiMicroservicios", "ApiMic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exa1.API", "Exa1.API\Exa1.API.csproj", "{F13B2ED7-3B6C-4F05-BA07-1A85DD896409}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exa1.Shared", "Exa1.Shared\Exa1.Shared.csproj", "{78BFD1D2-7EF6-4DEA-83E8-99CFDD62E0BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +21,17 @@ Global
 		{F13B2ED7-3B6C-4F05-BA07-1A85DD896409}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F13B2ED7-3B6C-4F05-BA07-1A85DD896409}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F13B2ED7-3B6C-4F05-BA07-1A85DD896409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78BFD1D2-7EF6-4DEA-83E8-99CFDD62E0BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78BFD1D2-7EF6-4DEA-83E8-99CFDD62E0BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78BFD1D2-7EF6-4DEA-83E8-99CFDD62E0BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78BFD1D2-7EF6-4DEA-83E8-99CFDD62E0BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F13B2ED7-3B6C-4F05-BA07-1A85DD896409} = {BAA65F81-B622-4518-8016-DA61984B7BAB}
+		{78BFD1D2-7EF6-4DEA-83E8-99CFDD62E0BC} = {DC1BDF8F-450D-4A95-9F6A-B3CC3068FC38}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {68D6AF36-F158-425A-99FD-D287FF4C0810}
